@@ -286,19 +286,53 @@ Now, deploy the app:
 
     $ amplify publish
 
-![]()
-
-![]()
-
 - ? Are you sure you want to continue? (Y/n) **Y**
+
+![](./images/28f.png)
+
 ### Testing the App
 
 Head to the URL displayed by the amplify publish command, and sign up as a new user. After logging in, select a bank from the list displayed.
 
-If you are using the sandbox environment, use the credentials **user_good / pass_good** to access the bank and display the transactions.
+![](./images/29f.png)
 
-## Conclusion
-
-
+![](./images/30f.png)
 
 
+After you sign in, click **Connect with Plaid**.
+
+![](./images/31f.png)
+
+On the next page, select **Continue**.
+
+![](./images/32f.png)
+
+Select your bank:
+
+![](./images/33f.png)
+
+If you are using the sandbox environment, use the username  **user_good** and password **pass_good** to access the bank and display the transactions.
+
+![](./images/34f.png)
+
+You should see a *'Success!'* page. Click **Continue** to access the bank and display the transactions.
+
+![](./images/35f.png)
+
+## Cleaning Up Your Environment
+
+Wow! We were able to successfully create a secure, scalable, and completely serverless fintech app on AWS, using the AWS Amplify framework.
+
+To avoid any potential charges, we'll clean up and delete any resources that were utilized in this project. Navigate to you AWS account––head to the **AWS Amplify** console to delete the demo app. 
+
+![](./images/36f.png)
+
+When prompted, confirm deletion.
+
+![](./images/37f.png)
+
+![](./images/38f.png)
+
+**TROUBLESHOOTING:** If you have any difficulties deleting the demo app, ensure that all buckets in the S3 console have been removed prior to.
+
+And that's it. Job well done!
